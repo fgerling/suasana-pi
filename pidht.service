@@ -1,0 +1,8 @@
+[Unit]
+Description=DHT Pi
+
+[Service]
+ExecStart=/home/pi/wohnung/venv/bin/python /home/pi/wohnung/main.py
+
+[Install]
+WantedBy=multi-user.target
